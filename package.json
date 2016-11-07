@@ -24,7 +24,7 @@
     "url": "https://github.com/bwarner/sg/issues"
   },
   "bin": {
-    "sg": "./bin/sg"
+    "sg": "./bin/sg.js"
   },
   "homepage": "https://github.com/bwarner/sg#readme",
   "dependencies": {
