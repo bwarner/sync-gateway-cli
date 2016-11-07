@@ -1,0 +1,45 @@
+{
+  "name": "sg",
+  "version": "0.1.0",
+  "description": "Command line utilties for couchbase sync gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwarner/sg.git"
+  },
+  "keywords": [
+    "couchbase",
+    "sync-gateway",
+    "node.js"
+  ],
+  "author": "Byron Warner",
+  "contributors": [
+    "Byron Warner <byron.warner@farvisionllc.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bwarner/sg/issues"
+  },
+  "bin": {
+    "sg": "./bin/sg"
+  },
+  "homepage": "https://github.com/bwarner/sg#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "debug": "^2.2.0",
+    "pkginfo": "^0.4.0",
+    "sync-gateway-client": "https://github.com/bwarner/sync-gateway-client.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-mocha": "^0.1.0",
+    "eslint-plugin-chai-expect": "^1.1.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-mocha": "^4.5.1",
+    "eslint-plugin-react": "^6.2.0"
+  }
+}
